@@ -1,0 +1,444 @@
+
+.menu-h
+{
+  text-align: right;
+  color: black;
+  /*width: 500px;*/
+  font-family: Roboto-Light;
+}
+
+.header
+{
+  width: 100%;
+  height: 70px;
+}
+
+nav.menu-h > a
+{
+  margin-left: 4%;
+  margin-right: 2%;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+nav.menu-h > a:hover
+{
+  text-decoration: none;
+  color: #000000;
+}
+
+.logo
+{
+  display: block;
+  background-image: url(../../app/images/logo.png);
+  width: 70px; /* avant auto*/
+  height: 70px; /* avant 100px*/
+  background-color: transparent;
+  background-size: auto 70px;
+  background-repeat: no-repeat;
+}
+
+.logo-text
+{
+  height: 70px; /* avant 100px*/
+}
+.name-logo
+{
+  position: relative;
+  font-size: 22px;
+  color: white;
+  height: 40px;
+  font-family: Roboto-Light;
+}
+
+.name-logo-p
+{
+  position: absolute;
+  bottom: 0;
+}
+
+div.name-logo > a
+{
+  color: white;
+  font-family: Roboto-Light;
+}
+.slogan
+{
+  position: relative;
+  color: white;
+  font-size: 10px;
+  height: 30px;
+}
+/*-----------------Menu en barre-----------*/
+
+.object-middle
+{
+  display: inline-block;
+  margin: calc((60px - 6px) / 2) 2px;
+  /*border: 1px solid #fff;*/
+  padding: 4px;
+  height: 26px;
+}
+
+@media (max-width: 480px)
+{
+  .slogan-text
+  {
+      /*margin-top: 10px;*/
+      margin-top: 8%;
+      /*margin-bottom: 20px;*/
+      font-size: 0.8em;
+      margin-left: 10px;
+  }
+  .description
+  {
+    margin-bottom: 0px;
+    margin-top: 20%;
+    font-family: Roboto-Light;
+    font-size: 0.7em;
+  }
+  .group-circles
+  {
+    display: block;
+    height: 20px;
+    width: 100px;
+    margin: 5% auto;
+    background-color: transparent;
+  }
+}
+
+@media (min-width: 481px)
+{
+  .sm-obj-center
+  {
+    margin-top:calc((70px - 15px)/2);
+  }
+  .slogan-text
+  {
+      /*margin-top: 10px;*/
+      margin-top: 5%;
+      /*margin-bottom: 20px;*/
+      font-size: 1em;
+      margin-left: 10px;
+  }
+  .description
+  {
+    margin-bottom: 0;
+    margin-top: 0.3em;
+    font-family: Roboto-Light;
+    font-size: 0.7em;
+  }
+  .group-circles
+  {
+    display: block;
+    height: 20px;
+    width: 100px;
+    margin: 7% auto;
+    background-color: transparent;
+  }
+}
+
+@media (min-width: 768px)
+{
+  .sm-obj-center
+  {
+    margin-top:calc((70px - 15px)/2);
+  }
+  .description
+  {
+    margin-bottom: 0px;
+    margin-top: 1.7em;
+    font-family: Roboto-Light;
+    font-size: 0.7em;
+  }
+  .slogan-text
+  {
+      /*margin-top: 10px;*/
+      margin-top: 5%;
+      /*margin-bottom: 20px;*/
+      font-size: 1.1em;
+      margin-left: 10px;
+  }
+  .group-circles
+  {
+    display: block;
+    height: 20px;
+    width: 100px;
+    margin: 4% auto;
+    background-color: transparent;
+  }
+}
+
+@media (min-width: 980px)
+{
+  .med-larg-obj-center
+  {
+    margin-top:calc((70px - 15px)/2);
+  }
+  .med-obj-center
+  {
+    padding-top:calc((120px - 70px)/2);
+  }
+  .h-med /* header-med */
+  {
+    height: 120px;
+    width: 100%;
+  }
+  .slogan-text
+  {
+      /*margin-bottom: 20px;*/
+      margin-top: 4%;
+      font-size: 1.2em;
+      margin-left: 10px;
+  }
+  .description
+  {
+    margin-bottom: 0px;
+    margin-top: .5em;
+    font-family: Roboto-Light;
+    font-size: 0.9em;
+  }
+  .group-circles
+  {
+    display: block;
+    height: 20px;
+    width: 100px;
+    margin: 3% auto;
+    background-color: transparent;
+  }
+}
+@media (min-width: 1200px)
+{
+  .slogan-text
+  {
+      /*margin-bottom: 20px;*/
+      margin-top: 5%;
+      font-size: 1.3em;
+      margin-left: 10px;
+  }
+  .description
+  {
+    margin-bottom: 0px;
+    margin-top: 1em;
+    font-family: Roboto-Light;
+    font-size: 0.9em;
+  }
+  .group-circles
+  {
+    display: block;
+    height: 20px;
+    width: 100px;
+    margin: 3.5% auto;
+    background-color: transparent;
+  }
+}
+
+
+  .bg-h /*background-header*/
+  {
+    background-color: rgba(46, 125, 50,1.0);
+  }
+
+.menu-rod
+{
+  margin-top:calc((70px - 15px)/2);
+}
+.container-in
+{
+  height: 70px;
+}
+
+.footer
+{
+  position: relative;
+  width: 100%;
+  background-color: rgb(30, 23, 23);
+  min-height: 170px;
+}
+
+.author
+{
+  color:#acacaa;
+  font-size: 15px;
+}
+
+.group-auth
+{
+  /*position: absolute;
+  bottom: 0;*/
+  height: 30px;
+}
+
+
+.group-auth > hr
+{
+
+}
+
+.service-type
+{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+
+.service-type p a
+{
+  color: #a7a1a1;
+}
+.service-type p a:hover
+{
+  color: #fff;
+}
+
+.contact-us
+{
+  border: none;
+  background-color: #2e7d32;
+  width: 200px;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  float: right;
+}
+
+.social-profil-footer
+{
+  display: inline-block;
+  margin-top: 0em;
+  margin-left: 1em;
+
+}
+
+.social-footer
+{
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.social-profil-footer > a, .social-footer > a
+{
+  text-decoration: none;
+  color: black;
+}
+.social-profil-footer .fa-facebook:hover,.social-footer .fa-facebook:hover
+{
+  background-color: #3f65a6;
+  border: 1px solid #3f65a6;
+  color: #fff;
+}
+.social-profil-footer .fa-linkedin:hover, .social-footer .fa-linkedin:hover
+{
+  background-color: #0077b5;
+  border: 1px solid #0077b5;
+  color: #fff;
+}
+.social-profil-footer .fa-google-plus:hover, .social-footer .fa-google-plus:hover
+{
+  background-color: #c11515;
+  border: 1px solid #c11515;
+  color: #fff;
+}
+
+.panel-follow-us
+{
+  background-color: #599b5c;
+  height: 40px;
+  width: 100%;
+}
+
+form.form-follow {
+    width: inherit;
+    height: inherit;
+
+}
+
+.form-follow > .btn {
+    height: inherit;
+    width: inherit;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    background-color: #2e7d32;
+}
+.form-circle
+{
+
+  width: 25px;
+  height: 25px;
+  border: 1px solid #fff;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 12px;
+  margin: calc((20px - 15px) / 2);
+  padding-top: 5px;
+}
+
+.hand-right
+{
+  font-size: 20px;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.group-follow-us
+{
+  height:inherit;
+  padding-top: 5px;
+}
+
+.follow-us-text
+{
+  position: relative;
+  top: 5px;
+  display: inline-block;
+  color: #fff;
+  margin-bottom: 1em;
+  margin-left: 40px;
+}
+
+.group-services
+{
+  /*height: 110px;*/
+
+}
+
+
+/*  -------------FIN LAYOUT ----------------   */
+.acknowledgement
+{
+  position: relative;
+  top: 0;
+  /*float: left;*/
+  /*margin-left: 50px;*/
+  padding-top: 0.5em;
+  color: #000;
+  font-size: 3em;
+  width: 100%;
+  min-height: 350px;
+  background-color: #d5e54e;
+  /*z-index: 3;*/
+}
+
+
+
+.circles
+{
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.arrow
+{
+  position: absolute;
+  /*bottom: -50px;*/
+  text-align: center;
+  margin: 0 auto;
+  color: #000;
+}

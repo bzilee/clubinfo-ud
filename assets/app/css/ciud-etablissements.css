@@ -1,0 +1,46 @@
+.etablissement{
+	position: relative;
+	/*border: 1px solid black;*/
+	text-align: center;
+	height: 250px;
+	margin-bottom: 20px;
+		/*padding-left: 100px;*/
+}
+
+/*.etablissement:hover .logo-etablissement{
+	background-color: green;
+}*/
+
+.masque-etablissement{
+	display: none;
+	position: absolute; 
+	background-color: black;
+	height: 200px;
+	position: absolute; 
+	background-color: black;
+
+}
+
+.logo-etablissement{
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 150px ;
+}
+.name-school{
+	word-break: break-all;
+}
+ .profile-leader{
+    height: 200px;   
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+  }
+
+  .list-elmt-padding{
+  	padding-left: 50px !important;
+  }
+
+   .sub-list-elmt-padding{
+  	padding-left: 70px !important;
+  }

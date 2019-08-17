@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ALLIB PHP</title>
+    <style type="text/css">
+    body{
+    	margin:0;
+    	padding: 0;
+    }
+
+    html{
+    	margin:0;
+    	padding: 0;
+    }
+
+    .alert{
+    	background-color: #f44336;
+    	color: #FFF;
+    }
+
+    .container{
+
+    	text-align: center;
+    	width: 100%;
+    	height: 100vh;
+    }
+
+    .bloc-p
+    {
+    	font-style: italic;
+    	padding: calc((30px)/2) 0 calc((30px)/2) 0;
+    	margin: 50px calc((100% - 80%)/2) 0 calc((100% - 80%)/2);
+    	width: 80%;
+		box-shadow: inset -1px 1px 0px 0px #7d7a7a;
+    }
+
+    .bloc-h
+    {
+    	padding: calc((20px)/4) 0 calc((20px)/4) 0;
+    	margin: 50px calc((100% - 80%)/2) 0 calc((100% - 80%)/2);
+    	width: 80%;
+		box-shadow: inset -1px 1px 0px 0px #7d7a7a;
+    }
+
+     .bloc-s
+    {
+    	display: inline-block;
+    	margin-bottom: 10px;
+    	font-style: italic;
+    	padding: calc((30px)/2) 0 calc((30px)/2) 0;
+    	width: calc(50%);
+    	min-height: calc(15px);
+    	
+    }
+
+    /*.liste-erreurs p:nth-child(1)
+    {
+    	margin-right: 5%;
+    	background-color: blue;
+    }
+
+     .liste-erreurs p:nth-child(2)
+    {
+    	margin-left: 5%;
+    	background-color: yellow;
+    }*/
+
+    .liste-erreurs
+    {
+    	/*font-style: italic;*/
+    	/*padding: calc((30px)/2) 0 calc((30px)/2) 0;*/
+    	margin: 10px calc((100% - 80%)/2) 0 calc((100% - 80%)/2);
+    	width: 80%;
+    }
+
+    .error
+    {
+    	background-color: #9e9e9e;
+    	font-size: 25px;*/
+    }
+
+    .ok
+    {
+    	background-color: #4caf50;
+    	font-size: 20px;*/
+    }
+
+    .error-config
+    {
+    	background-color: #607d8b;
+    	font-size: 20px;*/
+    }
+
+    </style>
+  </head>
+  <body bgcolor="#424242">
+
+  <div class="container">
+
+  <p class="bloc-p error">
+  Erreur 404 : Le lien que vous avez démandé n'existe pas.<br/>
+  <span style="text-decoration:line-through;">www.abc.com<?php echo $url; ?></span>
+  </p>
+
+  <p class="bloc-h error-config">Erreur dans la configuration :</p>
+
+
+  <div class="liste-erreurs">
+	  <p class="bloc-s alert">
+	  Votre page personnalisée d'erreur est mal configurée.<br/>
+	  </p>
+
+	   <p class="bloc-s alert">
+	  Impossible de trouver votre page d'accueille.<br/>
+	  </p>
+
+	  <p class="bloc-s alert">
+	  Impossible de trouver votre page d'accueille.<br/>
+	  </p>
+
+	  <p class="bloc-s alert">
+	  Impossible de trouver votre page d'accueille.<br/>
+	  </p>
+
+	  <p class="bloc-s alert">
+	  Impossible de trouver votre page d'accueille.<br/>
+	  </p>
+
+	  <p class="bloc-s ok">
+	  Configuration ok !<br/>
+	  </p>
+ </div>
+
+  </div>
+  </body>
+</html>

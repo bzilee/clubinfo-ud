@@ -1,0 +1,49 @@
+.header{
+	background-color: #ddd;
+	height: 100vh;
+	width: 100vw;
+}
+.logo-map{
+	/*background-color: red;*/
+	height: 100vh;
+	background-image: url(../images/Logo-ciud.png);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+
+.form-style{
+	position: relative;
+	height: 100vh;
+}
+
+.auth-form{
+	position: absolute;
+	top: 230px;
+	margin-top: 
+}
+.select-field{
+	position: absolute !important;
+	margin-top: 50px !important;;
+	left: 0 !important;;
+}
+.btn{
+	background-color: #0071c5;
+}
+
+.btn:hover{
+	background-color: #4592cc;
+}
+
+input::placeholder {
+  color: #3e8bc3 !important;
+}
+
+input[ciud-error="erreur"]::placeholder, input[ciud-error="erreur"] {
+  color: red !important;
+  border-bottom-color: red !important; 
+}
+
+.row {
+    margin-bottom:0px !important;
+}

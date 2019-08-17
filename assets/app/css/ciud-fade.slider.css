@@ -1,0 +1,219 @@
+
+
+/* keyframes d'animation(anim_slides) */
+
+@-webkit-keyframes anim_slides {
+    0% {
+        opacity:0;
+    }
+    6% {
+        opacity:1;
+    }
+    24% {
+        opacity:1;
+    }
+    30% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
+}
+@-moz-keyframes anim_slides {
+    0% {
+        opacity:0;
+    }
+    6% {
+        opacity:1;
+    }
+    24% {
+        opacity:1;
+    }
+    30% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
+}
+
+@keyframes anim_slides {
+    0% {
+        opacity:0;
+    }
+    6% {
+        opacity:1;
+    }
+    24% {
+        opacity:1;
+    }
+    30% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
+}
+
+.slides ul li {
+    opacity:0;
+    position:absolute;
+    top:0;
+
+    /* animation css3 */
+    -webkit-animation-name: anim_slides;
+    -webkit-animation-duration: 24.0s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-delay: 0;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode: forwards;
+
+    -moz-animation-name: anim_slides;
+    -moz-animation-duration: 24.0s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+    -moz-animation-delay: 0;
+    -moz-animation-play-state: running;
+    -moz-animation-fill-mode: forwards;
+
+     animation-name: anim_slides;
+     animation-duration: 24.0s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+     animation-direction: normal;
+     animation-delay: 0;
+     animation-play-state: running;
+     animation-fill-mode: forwards;
+}
+
+/* css3 delays */
+.slides ul  li:nth-child(2), .slides ul  li:nth-child(2) div {
+    -webkit-animation-delay: 6.0s;
+    -moz-animation-delay: 6.0s;
+}
+.slides ul  li:nth-child(3), .slides ul  li:nth-child(3) div {
+    -webkit-animation-delay: 12.0s;
+    -moz-animation-delay: 12.0s;
+}
+.slides ul  li:nth-child(4), .slides ul  li:nth-child(4) div {
+    -webkit-animation-delay: 18.0s;
+    -moz-animation-delay: 18.0s;
+}
+.slides ul li img {
+    display:block;
+}
+
+/* keyframes #anim_titles */
+@-webkit-keyframes anim_titles {
+    0% {
+        /*left:100%;*/
+        opacity:0;
+    }
+    5% {
+        /*left:10%;*/
+        opacity:1;
+    }
+    20% {
+        /*left:10%;*/
+        opacity:1;
+    }
+    25% {
+        /*left:100%;*/
+        opacity:0;
+    }
+    100% {
+        /*left:100%;*/
+        opacity:0;
+    }
+}
+@-moz-keyframes anim_titles {
+    0% {
+        /*left:100%;*/
+        opacity:0;
+    }
+    5% {
+        /*left:10%;*/
+        opacity:1;
+    }
+    20% {
+        /*left:10%;*/
+        opacity:1;
+    }
+    25% {
+        /*left:100%;*/
+        opacity:0;
+    }
+    100% {
+        /*left:100%;*/
+        opacity:0;
+    }
+}
+
+@keyframes anim_titles {
+    0% {
+        /*left:100%;*/
+        opacity:0;
+    }
+    5% {
+        /*left:10%;*/
+        opacity:1;
+    }
+    20% {
+        /*left:10%;*/
+        opacity:1;
+    }
+    25% {
+        /*left:100%;*/
+        opacity:0;
+    }
+    100% {
+        /*left:100%;*/
+        opacity:0;
+    }
+}
+
+.slides ul li div {
+    background-color:#000000;
+    border-radius:3px 3px 3px 3px;
+    box-shadow:0 0 5px #FFFFFF inset;
+    color:#FFFFFF;
+    font-size:26px;
+    left:5%;
+    margin:0 auto;
+    padding:10px;
+    position:absolute;
+    top:80%;
+    z-index: 100000065666;
+    /*width:200px;*/
+
+    /* animation css3 */
+    -webkit-animation-name: anim_titles;
+    -webkit-animation-duration: 24.0s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-delay: 0;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode: forwards;
+
+    -moz-animation-name: anim_titles;
+    -moz-animation-duration: 24.0s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+    -moz-animation-delay: 0;
+    -moz-animation-play-state: running;
+    -moz-animation-fill-mode: forwards;
+
+     animation-name: anim_titles;
+     animation-duration: 24.0s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+     animation-direction: normal;
+     animation-delay: 0;
+     animation-play-state: running;
+     animation-fill-mode: forwards;
+}

@@ -1,0 +1,692 @@
+::-webkit-scrollbar-thumb
+{
+  border-radius: 0.5em;
+  background-color: #78807b;
+}
+
+::-webkit-scrollbar
+{
+  width: 5px;
+  background-color: #fffafa;
+  border-radius: 0.5em;
+}
+
+.header{
+  /*position: absolute;*/
+  color: green;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../images/back-home.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.header-front{
+  position:absolute;
+  top:0;
+  width:100%;
+  height:100vh;
+  z-index: 1001;
+}
+
+.logo-ciud{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  float: left;
+  height: 100px;
+  width: 153px;
+  margin: 50px 0 0 65px;
+  background-image: url(../images/logo-ciud.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 10000001 !important;
+}
+/* *********************margin-top*****height***line-height*color************************* */
+.menu-ciud {
+  color: #fff;
+  height:  30px !important;/*150px*/
+  line-height: normal !important;
+  float: right;
+  width: auto !important;
+  margin-right: 60px;
+  margin-top: 100px;
+  -webkit-box-shadow: 0 0 0 0 transparent !important;
+   box-shadow: 0 0 0 0 transparent !important;
+
+}
+
+
+
+/* ***********************height******************************** */
+.menu-inline{
+height: inherit ;
+}
+/* *****************************line-height************************** */
+.menu-elements{
+  margin: 0 ;
+  font-size: 20px;
+}
+
+.slogan-ciud{
+  margin: calc(((100vh)/2) - 75px ) 0 0 0;
+  font-size: 50px;
+  -moz-transition: all 0.5s cubic-bezier(0.54, 0.32, 0.25, 1) ;
+ -webkit-transition: all 0.5s cubic-bezier(0.54, 0.32, 0.25, 1) ;
+ transition: all 0.5s cubic-bezier(0.54, 0.32, 0.25, 1);
+}
+
+.slogan-1{
+
+  margin-left: 200px;
+  color: #0071c5;
+}
+
+.slogan-2{
+
+  margin-left: 450px;
+    color: white;
+}
+/* **************************************************************************************** */
+.menu-ciud a{
+
+  font-size: 20px  !important;
+  height: 30px;
+
+}
+
+.menu-ciud li.menu-elements a:hover,
+.menu-ciud li.menu-elements a:hover{
+  color: #0071c5;
+}
+
+@media only screen and (max-width: 1150px) {
+
+
+  .slogan-1{
+
+    margin-left: 100px;
+    color: #0071c5;
+  }
+
+  .slogan-2{
+
+    margin-left: 350px;
+      color: white;
+  }
+  .menu-ciud a{
+    /*padding: 0 10px;*/
+    font-size: 15px !important;
+
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+
+  .slogan-1{
+
+    margin-left: 100px;
+    color: #0071c5;
+  }
+
+  .slogan-2{
+
+    margin-left: 250px;
+      color: white;
+  }
+  .menu-ciud a{
+    padding: 0 10px;
+  }
+  /*.mobile-menu-ciud{
+  display: none !important;
+
+  }*/
+
+  /*.ciud-sm-menu-content{
+  display: none !important;
+  }*/
+
+  /*.ciud-slogan {/*permet de retablir la styliation du slogan lors du resizement de la fenetre navigateur */
+  /*margin: calc(((100vh)/2) - 75px ) 0 0 0;
+  font-size: 50px;
+  -moz-transition: all 0.5s cubic-bezier(0.54, 0.32, 0.25, 1);
+  -webkit-transition: all 0.5s cubic-bezier(0.54, 0.32, 0.25, 1);
+  transition: all 0.5s cubic-bezier(0.54, 0.32, 0.25, 1);
+  }*/
+
+  /*.objet-circle {/*permet de retablir la styliation du slogan lors du resizement de la fenetre navigateur */
+  /*  margin: calc(((100vh) / 2) - 75px - 140px) auto 0 auto;
+    width: 70px;
+    height: 12px;
+  }*/
+
+/*  .ciud-menu {permet de retablir la styliation du slogan lors du resizement de la fenetre navigateur */
+  /*  color: #fff;
+    height: 30px !important;
+    line-height: normal !important;
+    float: right;
+    width: auto !important;
+    margin-right: 60px;
+    margin-top: 100px;
+    -webkit-box-shadow: 0 0 0 0 transparent !important;
+    box-shadow: 0 0 0 0 transparent !important;
+  }*/
+}
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+
+  .ciud-footer div.s12:nth-child(1),.ciud-footer div.s12:nth-child(2) {
+    border-bottom: 1px solid #605e77;
+
+    border-bottom-style: groove;
+  }
+
+  .sub-menu
+  {
+    display: none;
+    height: 100px;
+    /*animation: ciud-open-subMenug 10s;*/
+  }
+
+  @keyframes ciud-open-subMenu
+  {
+  from{ height:0px;}
+  to{ height:100px;}
+
+  }
+
+
+  .logo-ciud {
+    height: 70px;
+    width: 107.3px;
+    margin: 30px 0 0 45px;
+    }
+  .menu-ciud {
+    display: none;
+
+   }
+   .transite-menu-ciud, .transite-menu-inline {
+     display: none !important;
+
+    }
+
+   .sm-menu-ciud {
+      position: absolute;
+      display: inline-block;
+      float: right;
+      margin-right: 50px;
+      margin-top: 55px;
+      cursor: pointer;
+      top: 0;
+      right: 0;
+      z-index: 1000001;
+    }
+
+    .sm-menu-ciud-transite {
+    position: fixed;
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+    margin-top: 25px;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    z-index: 1000002;
+}
+
+
+     .menu-div
+  	{
+      display: block;
+  		height: 2px;
+  		width: 20px;
+  		background-color: #fff;
+  		margin: 4px 0 ;
+  	}
+
+   .bar-middle
+ 		{
+ 			-webkit-transform:translateX(-2px);
+ 					transform:translateX(-2px);
+ 			-webkit-transition:transform .4s ease-in-out;
+ 					transition:transform .4s ease-in-out;
+
+ 		}
+ 		.bar-top, .bar-bottom
+ 		{
+ 			-webkit-transform:translateX(2px);
+ 					transform:translateX(2px);
+ 			-webkit-transition:transform .4s ease-in-out;
+ 					transition:transform .4s ease-in-out;
+
+ 		}
+
+ 		.bar
+ 		{
+ 			-webkit-transform:translateX(0px);
+ 					transform:translateX(0px);
+ 			-webkit-transition:transform .4s ease-in-out;
+ 					transition:transform .4s ease-in-out;
+ 		}
+
+    .ciud-sm-menu-content{
+      position:fixed;
+      top: -100vh;
+      width:100%;
+      height: 100vh;
+      background-color: #131111;
+      opacity: .7;
+      z-index: 1000;
+      -moz-transition: all .5s ease ;
+  	 -webkit-transition: all .5s ease ;
+  	 transition: transform .5s cubic-bezier(0.54, 0.32, 0.25, 1);
+    }
+
+    .down {
+      transform: translateY(100vh);
+      /*transform: translateX(0px);*/
+     }
+   .up {
+     transform: translateY(0);
+     /*transform: translateX(0px);*/
+    }
+
+    .invisible-slogan {
+      display: none;
+      -moz-transition: all 2s cubic-bezier(0.54, 0.32, 0.25, 1) ;
+     -webkit-transition: all 2s cubic-bezier(0.54, 0.32, 0.25, 1) ;
+     transition: all 2s cubic-bezier(0.54, 0.32, 0.25, 1);
+     }
+
+   .invisible-gp-circle {
+     display: none;
+     -moz-transition: all 2s cubic-bezier(0.54, 0.32, 0.25, 1) ;
+    -webkit-transition: all 2s cubic-bezier(0.54, 0.32, 0.25, 1) ;
+    transition: all 2s cubic-bezier(0.54, 0.32, 0.25, 1);
+    }
+    .slogan-ciud{
+    margin: calc(((100vh)/2) - 130px ) 0 0 0;
+    -moz-transition: all 0.5s cubic-bezier(0.54, 0.32, 0.25, 1) ;
+   -webkit-transition: all 0.5s cubic-bezier(0.54, 0.32, 0.25, 1) ;
+   transition: all 0.5s cubic-bezier(0.54, 0.32, 0.25, 1);
+
+    }
+
+    .slogan-1{
+      margin: 0;
+      text-align: center;
+    }
+
+    .slogan-2{
+    margin: 0;
+    text-align: center;
+    }
+
+    .circle-objet{
+
+      margin: calc(((100vh) / 2) - 75px -  60px)  auto 0 auto !important;
+      width: 70px ;
+      height: 12px ;
+      -moz-transition: all 1s cubic-bezier(0.54, 0.32, 0.25, 1) ;
+     -webkit-transition: all 1s cubic-bezier(0.54, 0.32, 0.25, 1) ;
+     transition: transform .5s cubic-bezier(0.54, 0.32, 0.25, 1);
+    }
+
+    .mobile-menu-ciud{
+      /*position: absolute;
+      top: 140px;
+      float: left;*/
+      line-height: normal !important;
+      height: 100vh !important;
+      padding-top: 120px;
+      -webkit-box-shadow: 0 0 0 0 transparent !important;
+       box-shadow: 0 0 0 0 transparent !important;
+
+    }
+    .mobile-menu{
+
+      height: calc((100vh - 120px));
+      overflow-x: hidden;
+      border-top: 1px solid white;
+    }
+      .mobile-menu::-webkit-scrollbar-thumb
+  	{
+      	border-radius: 0.5em;
+      	background-color: #78807b;
+  	}
+
+  	.mobile-menu::-webkit-scrollbar
+  	{
+      	width: 5px;
+      	background-color: #fffafa;
+        border-radius: 0.5em;
+  	}
+
+    .m-menu-elements{
+
+      float: none !important;
+      line-height: 50px;
+    }
+
+    .sub-menu-elmt{
+      float: none;
+    }
+
+    .mobile-menu .m-menu-elements a{
+      height: 50px;
+    }
+    .mobile-menu .m-menu-elements:hover{
+      background-color: #1b5b8c;
+    }
+
+    .sub-menu a{
+      padding-left: 30px;
+      font-style: italic;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 700px) {
+    .slogan-ciud{
+      font-size: 40px  !important;
+      -moz-transition: all 0.5s cubic-bezier(0.54, 0.32, 0.25, 1) ;
+     -webkit-transition: all 0.5s cubic-bezier(0.54, 0.32, 0.25, 1) ;
+     transition: all 0.5s cubic-bezier(0.54, 0.32, 0.25, 1);
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .slogan-ciud{
+      font-size: 40px  !important;
+      padding: 0 15px;
+      -moz-transition: all 0.5s cubic-bezier(0.54, 0.32, 0.25, 1) ;
+     -webkit-transition: all 0.5s cubic-bezier(0.54, 0.32, 0.25, 1) ;
+     transition: all 0.5s cubic-bezier(0.54, 0.32, 0.25, 1);
+    }
+
+    .slogan-1{
+
+      padding:  0 0 25px 0;
+    }
+
+    .circle-objet{
+
+      margin: calc(((100vh) / 2) - 140px -  75px)  auto 0 auto !important;
+      width: 70px ;
+      height: 12px ;
+    }
+  }
+  .circle-objet
+  {
+
+    margin: calc(((100vh) / 2) - 75px -  140px)  auto 0 auto;
+    width: 70px;
+    height: 12px;
+  }
+
+    /*.circle-objet
+    {
+
+      margin: calc(((100vh) / 2) - 75px -  60px)  auto 0 auto;
+      width: 70px;
+      height: 12px;
+    }*/
+
+  .circle
+  {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+  }
+
+  li.menu-elements:nth-child(n):hover::after
+  {
+	 content: "";
+	 position: absolute;
+   top: 138px;
+	 height: 1px;
+	 background: #0071c5 ;
+   margin-left: 10px;
+	 -moz-transition: all .5s ease ;
+	 -webkit-transition: all .5s ease ;
+	 transition: all .5s ease;
+	 /*z-index: 1000;*/
+	}
+  /* -----------------------------------------------A importer dans chaque page------------------------------- */
+  li.menu-elements:nth-child(1)::after{
+    content: "";
+ 	 position: absolute;
+    top: 138px;
+ 	 height: 1px;
+ 	 background: #0071c5 ;
+    margin-left: 10px;
+ 	 -moz-transition: all .5s ease ;
+ 	 -webkit-transition: all .5s ease ;
+ 	 transition: all .5s ease;
+ 	 /*z-index: 1000;*/
+   width: 78px;
+  }
+
+/* ------------------No hover------- */
+  li.add-menu-elements:nth-child(1)::after{
+
+   width: 78px;
+  }
+  li.add-menu-elements:nth-child(2)::after{
+
+   width: 78px;
+  }
+  li.add-menu-elements:nth-child(3)::after{
+
+   width: 78px;
+  }
+  li.add-menu-elements:nth-child(4)::after{
+
+   width: 78px;
+  }
+  li.add-menu-elements:nth-child(5)::after{
+
+   width: 78px;
+  }
+/* -------------End No hover---------- */
+
+
+  /* -----------------------------------------------End A importer dans chaque page------------------------------- */
+
+/* ----------------With hover----------- */
+  li.menu-elements:nth-child(1):hover::after{
+	 width: 78px;
+	}
+  li.menu-elements:nth-child(2):hover::after{
+	 width: 105px;
+	}
+  li.menu-elements:nth-child(3):hover::after{
+	 width: 110px;
+	}
+  li.menu-elements:nth-child(4):hover::after{
+	 width: 79px;
+	}
+  li.menu-elements:nth-child(5):hover::after{
+	 width: 70px;
+	}
+  li.menu-elements:nth-child(6):hover::after{
+   width: 140px;
+  }
+  /* ------------End With hover----------- */
+
+.ciud-masque{
+	 background-color:black;
+   height:100vh;
+   width:100%;
+   opacity:.6;
+	}
+
+@media only screen and (min-width: 993px) {
+    .mobile-menu-ciud{
+    display: none !important;
+
+    }
+
+    d.ciud-sm-menu-content, .mobile-menu-ciud {
+    display: none !important;
+    }
+
+    .ciud-slogan {/*permet de retablir la styliation du slogan lors du resizement de la fenetre navigateur */
+    margin: calc(((100vh)/2) - 75px ) 0 0 0;
+    font-size: 50px;
+    -moz-transition: all 0.5s cubic-bezier(0.54, 0.32, 0.25, 1);
+    -webkit-transition: all 0.5s cubic-bezier(0.54, 0.32, 0.25, 1);
+    transition: all 0.5s cubic-bezier(0.54, 0.32, 0.25, 1);
+    }
+
+    .objet-circle {/*permet de retablir la styliation du slogan lors du resizement de la fenetre navigateur */
+      margin: calc(((100vh) / 2) - 75px - 140px) auto 0 auto;
+      width: 70px;
+      height: 12px;
+    }
+
+    .ciud-menu {/*permet de retablir la styliation du slogan lors du resizement de la fenetre navigateur */
+      color: #fff;
+      height: 30px !important;
+      line-height: normal !important;
+      float: right;
+      width: auto !important;
+      margin-right: 60px;
+      margin-top: 100px;
+      -webkit-box-shadow: 0 0 0 0 transparent !important;
+      box-shadow: 0 0 0 0 transparent !important;
+    }
+
+
+  }
+
+  .sub-menu-larg {
+    display: none;
+    position: absolute;
+    top: 124px;
+    right: 75px;
+    opacity: .5;
+    background-color: black;
+    height: 40px;
+    line-height: 40px;
+    width: 780px ;
+    z-index: 100010;
+  }
+
+  li.sub-menu-larg-elmt {
+    display: inline-block;
+    margin: 0 20px;
+  }
+
+  li.sub-menu-larg-elmt a:hover {
+    color:#0071c5;
+    transition: color .2s;
+  }
+
+  .sub-menu-larg-elmt a {
+    color: #fff;
+  }
+/* ************************FOOTER******************************************* */
+
+  .ciud-footer {
+    background-color: #131212;
+  }
+  .ciud-footer li a {
+    font-size: 20px;
+    color: #fff ;
+  }
+  .ciud-footer li a:hover {
+    color: #0071c5;
+    transition: color .3s;
+  }
+  .ciud-footer .copyright {
+    font-size: 15px;
+    text-align: center;
+    color: #fff1f1;
+    margin-bottom: 0;
+        padding: 10px 0 10px 0;
+    background-color:#3a3535;// #ca621c
+  }
+
+  .footer-style {
+    padding-top: 20px;
+    margin-bottom: 0;
+  }
+  .transite-menu{
+    position: fixed;
+    top: -70px;
+    height: 70px;
+    width: 100%;
+    z-index: 1000001;
+    background-color: #0071c5;
+    box-shadow: 0 1px 12px 0px #060606;
+    -webkit-transition:transform .4s ease-in-out;
+        transition:transform .4s ease-in-out;
+  }
+
+  .transite-menu-inline{
+    float: right;
+  }
+
+  .logo-ciud-transite{
+    display: inline-block;
+    height: 50px;
+    width: 77px;
+    background-image: url(../images/Logo-ciud-blanc.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 10%;
+    margin-top: 10px;
+  }
+
+  nav#transite-menu-ciud {
+    float: right !important;
+    display: inline-block !important;
+    width: initial;
+    height: 70px;
+    line-height: 70px;
+    -webkit-box-shadow: 0 0 0 0 transparent !important;
+     box-shadow: 0 0 0 0 transparent !important;
+}
+.show-transition-menu
+ {
+   -webkit-transform:translateY(70px);
+            transform:translateY(70px);
+   -webkit-transition:transform .4s ease-in-out;
+       transition:transform .4s ease-in-out;
+
+ }
+
+ .slider-show{
+   position:absolute;
+   top:0;
+   background-color:#afaaaa;
+   width:100%;
+   height:100vh;
+    overflow: hidden;
+ }
+
+ .img-slide{
+   display: block;
+   float: left;
+   height: 100vh;
+   width: calc(100vw - 5px);
+ }
+
+ .list-content{
+   width: 20000px;
+   height: 100vh;
+    /*overflow: hidden;*/
+ }
+
+ .bloc-actu {
+     margin: 0 0 20px 0;
+    padding: 0 30px !important;
+ }

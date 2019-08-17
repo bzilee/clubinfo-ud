@@ -1,0 +1,312 @@
+@import "ciud-fade.slider.css";
+/***** Acueil********************************* */
+
+  .blue-ciud {
+  background-color: #0071c5;
+  }
+  .green {
+  background-color: green;
+  }
+
+  .color-back-content {
+  background-color: #F5F7F8 !important;
+  margin-bottom: 0;
+  }
+
+  .section-left {
+
+  }
+
+  .section-left {
+
+  }
+  .padding.top {
+  padding-top: 30px !important;
+  }
+  .padding.left {
+  padding-left: 0 !important;
+  }
+
+  .padding.left-5 {
+  padding-left: 5px !important;
+  }
+  .padding.right {
+  padding-right: 3% !important;
+  }
+
+  .margin-top-small {
+    margin-top: 0px !important;
+    padding: 10px 10px 10px !important;
+    /* text-align: center; */
+    color: #0874c5;
+    font-size: 2.64rem !important;
+  }
+
+  .line-border{
+    border-left: 1px solid white;
+  }
+
+  @media only screen and (max-width: 992px) {
+
+    .section-left-hidden.small {
+      display: none;
+    }
+
+  }
+  @media only screen and (min-width: 993px) /*and (max-width: 1199px) */{
+
+    .all-content.color-back-content{
+      margin-left: 3% !important;
+      margin-right: 3% !important;
+      border-radius: 3px 3px 0 0;
+    }
+
+   .all-content-1.color-back-content{
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+        border-radius: 0 0 0 0;
+      }
+
+    h5.accent-3 {
+        margin-top: 0;
+        padding: .1rem .1rem;
+        text-align: left;
+        background-color: transparent;
+        border-left: 5px solid;
+    }
+
+     h5.accent-3-1 {
+        border-left: 0px solid !important;
+    }
+
+    .radius-top{
+          border-radius: 3px 0 0 0px;
+    }
+
+    .margin-top {
+    margin-top: 30px !important;
+    }
+     .margin-top-1 {
+      padding: 0 !important;
+    }
+
+  }
+
+  .activity-icon {
+    font-size: 150px;
+    text-align: center;
+  }
+
+  .header-announce {
+      /*background-image: url(../images/logo-ciud.png);*/
+      width: inherit;
+      height: 150px;
+      background-color: black;
+  }
+
+  .header-announce img {
+    width: inherit;
+    height: inherit;
+    text-align: center;
+  }
+
+
+  .title-announce{
+    background-color: #0071c5;
+    width: inherit;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px 3px 0 0;
+  }
+
+  .footer-announce{
+    background-color: #fff;
+    width: inherit;
+    height: 50px;
+    padding-left: 15px;
+    border-radius: 0 0 3px 3px;
+  }
+
+  .title-announce p, .footer-announce p:nth-child(1), .footer-announce p:nth-child(2){
+    margin-top:0;
+    margin-bottom: 0px;
+    padding: 5px 0 0 0;
+  }
+
+  .footer-announce p:nth-child(1){
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+  .footer-announce p:nth-child(2){
+    padding: 0px 0 0 0;
+    font-size: 12px;
+  }
+  .title-announce p{
+    margin-top:0;
+    padding: 5px 0;
+    text-align: center;
+  }
+
+  .section-left-hidden div.announces:nth-child(2), .section-left-hidden div.announces:nth-child(3){
+    margin-top:20px;
+
+  }
+
+      .title-actu {
+        padding: 5px 10px 0 10px !important;
+    }
+
+  .title-actu p{
+    margin:0 !important;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+}
+
+.actu-a-la-une,.partenaire-block {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+
+.actu-block {
+  margin-bottom: 30px;
+}
+
+.partenaire-block img{
+  width: inherit;
+  height: initial;
+}
+
+
+.row-content,.row-footer {
+      border-top: 5px solid #0071c5;
+}
+.row-content{
+  margin-bottom: 0 !important;
+  /*background-image: url(../images/motifs/motifs.png);*/
+}
+
+.padding.right.left-5.announces {
+    padding: 0 0 !important;
+}
+
+.align-center-small {
+    text-align: center;
+}
+
+.activity-text
+{
+  text-align: justify;
+  font-size: 20px;
+}
+
+.image-descript img 
+{
+  width: 100%;
+  height: 160px;
+}
+
+h6.small-description {
+    COLOR: #7d827d;
+    text-align: justify;
+}
+
+.saut{
+  height: 400px;
+}
+
+
+.title-our-activities{
+  height: inherit;
+  font-size: 50px;
+  color:#757575
+}
+
+.t-activity{
+  background-color: #ddd;
+}
+.activities{ 
+  background-color: #ddd;
+}
+
+.program-seminaires{ 
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+}
+.img-not-content{ 
+        height: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: url(../images/Logo-ciud.png);
+    background-position: center;
+    background-size: 30%;
+    background-repeat: no-repeat;
+}
+
+.register-form{
+  margin-bottom: 150px;
+  color: white;
+  /*border-right: 1px solid black;*/
+  padding-right: 30px !important;
+}
+
+.text-color-suggestion{
+  /*color: white;*/
+  font-size: 20px;
+}
+
+.textare-suggestion{
+  width: 100%;
+  height: 200px;
+}
+.submit-field{
+  margin-top: 20px;
+}
+
+.contact-us{
+  font-size: 25px;
+}
+
+.ciud-icons{
+  font-size: 25px;
+}
+
+.box-content{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.partner-box{
+  padding-bottom: 70px !important;
+  color: white;
+}
+
+.notification-form{
+    position: fixed;
+    z-index: 999999999999999999;
+    bottom: 5px;
+    right: 1px;
+    background-color: #5a5a5a;
+    padding: 15px 10px;
+    border-radius: 4px;
+    /*display: none;*/
+    color: white;
+}
+
+.find-us{
+  color: white;
+    background-color: #0071c5;
+    position: relative;
+}
+
+.suggest-us{
+    background-color: #e0e0e0;
+    position: relative;
+  
+}
+.suggest-form{
+  margin-bottom: 50px;
+}

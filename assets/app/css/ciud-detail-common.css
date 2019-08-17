@@ -1,0 +1,159 @@
+@import "ciud-actu.css";
+
+
+.img-description-main{
+  height: 300px;
+}
+
+.img-description-main img {
+  height: inherit;
+}
+
+.content-bloc{
+  padding: 0 20px;
+}
+
+.introduction-bloc{
+  padding: 20px 0 !important;
+}
+
+.content-list-number{
+  margin: 0 0 30px 0 ;
+}
+.sub-list-number{
+  margin-left: 20px !important;
+}
+
+.end-actu{
+  margin: 50px 0;
+}
+
+.info-about-actu{
+  font-style: italic;
+  font-size: 12px;
+  color: #9e9e9e;
+  margin-bottom: 30px;
+}
+
+
+.bg-color-facebook{
+  background-color: #17486d !important;
+}
+
+
+.bg-color-whatsapp{
+  background-color: #46c756 !important;
+}
+
+.end-actu .btn:hover{
+  background-color: #0071c5;
+}
+
+.bloc-social{
+  margin-bottom: 20px;
+}
+
+/*********************************************************************/
+
+.leaders-bloc{
+  background-color: transparent !important;
+    width: 45% !important;
+    height: 200px;
+}
+
+.img-leaders-bloc{
+  height: 200px !important;
+      border-radius: 3px 3px 3px 3px !important;
+      width: 50% !important;
+}
+
+.text-leaders{
+  height: 100px;
+  position: relative;
+  bottom: -10px;
+  margin: 0;
+}/*******************************************************************************/
+
+.img-assoc-description{
+  width: 100%;
+  height: 300px;
+  border-radius: 3px;
+  padding: 0 !important;
+  background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.bloc-association{
+  position: relative;
+  background-color: black;
+  opacity: .6;
+  top: 230px;
+  height: 70px;
+}
+
+.name-school{
+  color: white;
+  margin: 0;
+  font-size: 25px;
+
+}
+
+ p.name-school span.name{
+  font-weight: bold;
+  font-size: 30px;
+  color: #0071c5;
+
+}
+.academic-year-assoc{
+    margin: 0;
+    color: white;
+}
+.btn-about-leaders{
+  float: right;
+  margin: 16px 0;
+}
+
+input.bg-color-ciud {
+    background-color: #0071c5 !important;
+      opacity: 1;
+}
+
+input.bg-color-ciud:hover {
+    background-color: #309def !important;
+    opacity: 1;
+}
+/* Style des barres en dessous du menu*/
+
+ li.menu-elements:nth-child(4)::after{
+    content: "";
+   position: absolute;
+    top: 138px;
+   height: 1px;
+   background: #0071c5 ;
+    margin-left: 10px;
+   -moz-transition: all .5s ease ;
+   -webkit-transition: all .5s ease ;
+   transition: all .5s ease;
+   /*z-index: 1000;*/
+   width: 78px;
+  }
+
+   li.menu-elements:nth-child(1)::after, li.menu-elements:nth-child(2)::after{
+   display: none !important;
+  }
+  /*FIN */
+
+  .profile-leader{
+    height: 100px;    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+  }
+
+   .text-bio{
+    text-align: center;
+  }
+
+  .list-elmt-padding{
+    padding-left: 50px !important;
+  }
